@@ -352,8 +352,8 @@ If the character before and after CH is space or tab, CH is NOT slash"
 ;; press ",xx" to expand region
 ;; then press "z" to contract, "x" to expand
 (eval-after-load "evil"
-  '(progn
-     (setq expand-region-contract-fast-key "z")))
+   '(progn
+      (setq expand-region-contract-fast-key "z")))
 
 ;; I learn this trick from ReneFroger, need latest expand-region
 ;; @see https://github.com/redguardtoo/evil-matchit/issues/38
@@ -415,10 +415,10 @@ If the character before and after CH is space or tab, CH is NOT slash"
        "tfm" 'toggle-frame-maximized
        "ti" 'fastdef-insert
        "th" 'fastdef-insert-from-history
-       ;; "ci" 'evilnc-comment-or-uncomment-lines
-       ;; "cl" 'evilnc-comment-or-uncomment-to-the-line
-       ;; "cc" 'evilnc-copy-and-comment-lines
-       ;; "cp" 'evilnc-comment-or-uncomment-paragraphs
+       "ci" 'evilnc-comment-or-uncomment-lines
+       "cl" 'evilnc-comment-or-uncomment-to-the-line
+       "cc" 'evilnc-copy-and-comment-lines
+       "cp" 'evilnc-comment-or-uncomment-paragraphs
        "epy" 'emmet-expand-yas
        "epl" 'emmet-expand-line
        "rd" 'evilmr-replace-in-defun

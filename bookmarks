@@ -1,0 +1,19 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(#1=(#("org-capture-last-stored" 0 23
+      (bmkp-full-record #1#))
+    (annotation)
+    (tags)
+    (filename . "c:/work/Dropbox/git/org/refile.org")
+    (buffer-name . "refile.org")
+    (front-context-string . "* STARTED c60 ad")
+    (rear-context-string . "d the documents\n")
+    (front-context-region-string)
+    (rear-context-region-string)
+    (visits . 0)
+    (time . #2=(22952 21619 829286 600000))
+    (created . #2#)
+    (position . 32219))
+)
